@@ -1,0 +1,24 @@
+{
+  "release_tag": "dashboard-v1.0.0",
+  "asset": "Dashboard_Potensi_Site.twbx",
+  "bytes": 111910987,
+  "sha256": "8e84070489d2ff030125f04eedcaba47cf72a82336d3acba37f20c5a583e496c",
+  "contents": [
+    {
+      "file": "Dashboard_Potensi_Site.twb",
+      "bytes": 90533,
+      "sha256": "026ffca8d55e3aa54b1ef92c5c6faeb6499d81ade20ccd09e2d99ac89314d61d"
+    },
+    {
+      "file": "Data/Potensi_Site.hyper",
+      "bytes": 61669376,
+      "sha256": "f10421f461169f8c1ba4a76929c0156d91c2ddb234603ea2c024cd0dd90d9b9c"
+    },
+    {
+      "file": "Data/kelas_site_bulanan.csv",
+      "bytes": 152399236,
+      "sha256": "f50be0b8345d6a11baa3fb2ea2641dda725390ba05995663f3bad90a6507506e"
+    }
+  ],
+  "duplicate_omitted": "Potensi_Site_KP_Final.twbx"
+}

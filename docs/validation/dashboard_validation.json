@@ -1,0 +1,157 @@
+{
+  "source": "kelas_site_bulanan.csv",
+  "source_sha256": "f50be0b8345d6a11baa3fb2ea2641dda725390ba05995663f3bad90a6507506e",
+  "site_month_rows": 652500,
+  "distinct_sites": 74313,
+  "month_count": 9,
+  "duplicate_site_months": 0,
+  "missing_cells": 0,
+  "categories": {
+    "payload": {
+      "threshold_low_max": 569.6671282018677,
+      "threshold_medium_max": 1098.2020133545752,
+      "class_mismatches": 0,
+      "november_2023": {
+        "sites": 71394,
+        "median": 797.1189697794343,
+        "high_share": 0.32805277754433143,
+        "counts": {
+          "Rendah": 24250,
+          "Sedang": 23723,
+          "Tinggi": 23421
+        },
+        "class_medians": {
+          "Rendah": 293.238866803022,
+          "Sedang": 805.6542531981469,
+          "Tinggi": 1533.701846991118
+        }
+      }
+    },
+    "digital": {
+      "threshold_low_max": 25.468589797366732,
+      "threshold_medium_max": 51.17158263685611,
+      "class_mismatches": 0,
+      "november_2023": {
+        "sites": 71394,
+        "median": 38.609910179248445,
+        "high_share": 0.35917584110709583,
+        "counts": {
+          "Rendah": 22463,
+          "Sedang": 23288,
+          "Tinggi": 25643
+        },
+        "class_medians": {
+          "Rendah": 13.193170568460712,
+          "Sedang": 36.90400619361489,
+          "Tinggi": 76.54643559075592
+        }
+      }
+    },
+    "games": {
+      "threshold_low_max": 61.98284243105494,
+      "threshold_medium_max": 346.88785822212617,
+      "class_mismatches": 0,
+      "november_2023": {
+        "sites": 71394,
+        "median": 225.51651794018872,
+        "high_share": 0.3754377118525366,
+        "counts": {
+          "Rendah": 19855,
+          "Sedang": 24735,
+          "Tinggi": 26804
+        },
+        "class_medians": {
+          "Rendah": 17.12023775139706,
+          "Sedang": 180.15946860141204,
+          "Tinggi": 605.4537740861706
+        }
+      }
+    },
+    "video": {
+      "threshold_low_max": 119.40700977280089,
+      "threshold_medium_max": 518.1061254031114,
+      "class_mismatches": 0,
+      "november_2023": {
+        "sites": 71394,
+        "median": 379.47104403304866,
+        "high_share": 0.4017984704597025,
+        "counts": {
+          "Rendah": 19234,
+          "Sedang": 23474,
+          "Tinggi": 28686
+        },
+        "class_medians": {
+          "Rendah": 41.489210810846615,
+          "Sedang": 292.38935497908983,
+          "Tinggi": 906.6320808255672
+        }
+      }
+    }
+  },
+  "monthly_coverage": [
+    {
+      "month": "2023-11",
+      "sites": 71394,
+      "min_days_observed": 1,
+      "max_days_observed": 15,
+      "max_calendar_coverage": 0.5
+    },
+    {
+      "month": "2023-12",
+      "sites": 71654,
+      "min_days_observed": 1,
+      "max_days_observed": 26,
+      "max_calendar_coverage": 0.8387096774193549
+    },
+    {
+      "month": "2024-01",
+      "sites": 71730,
+      "min_days_observed": 1,
+      "max_days_observed": 20,
+      "max_calendar_coverage": 0.6451612903225806
+    },
+    {
+      "month": "2024-02",
+      "sites": 71982,
+      "min_days_observed": 1,
+      "max_days_observed": 17,
+      "max_calendar_coverage": 0.5862068965517241
+    },
+    {
+      "month": "2024-03",
+      "sites": 72343,
+      "min_days_observed": 1,
+      "max_days_observed": 13,
+      "max_calendar_coverage": 0.4193548387096774
+    },
+    {
+      "month": "2024-04",
+      "sites": 72743,
+      "min_days_observed": 1,
+      "max_days_observed": 5,
+      "max_calendar_coverage": 0.1666666666666666
+    },
+    {
+      "month": "2024-05",
+      "sites": 73369,
+      "min_days_observed": 1,
+      "max_days_observed": 21,
+      "max_calendar_coverage": 0.6774193548387096
+    },
+    {
+      "month": "2024-06",
+      "sites": 73644,
+      "min_days_observed": 1,
+      "max_days_observed": 25,
+      "max_calendar_coverage": 0.8333333333333334
+    },
+    {
+      "month": "2024-07",
+      "sites": 73641,
+      "min_days_observed": 1,
+      "max_days_observed": 9,
+      "max_calendar_coverage": 0.2903225806451613
+    }
+  ],
+  "method": "Fixed global tertiles over all site-month daily averages; not a predictive model"
+}

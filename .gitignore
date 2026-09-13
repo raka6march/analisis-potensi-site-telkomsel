@@ -221,3 +221,12 @@ __marimo__/
 *.parquet
 agregat/
 hasil/
+
+# Tableau: data is distributed in the release package
+.DS_Store
+*.twbr
+.~*
+*.twbx
+*.hyper
+/tableau/Data/
+/tableau/generated/
